@@ -16,6 +16,7 @@ public class Program {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
 		try {
+			System.out.println("***Reservation***");
 			System.out.print("Room number: ");
 			int number = sc.nextInt();
 			System.out.print("Check-in date(dd/MM/yyyy): ");
